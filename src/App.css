@@ -1,0 +1,22 @@
+.App {
+  font-family: Arial, sans-serif;
+}
+
+.judul {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.paragraf {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.box {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 2em;
+  margin: 5em auto;
+  width: 50%;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
