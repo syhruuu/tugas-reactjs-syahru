@@ -1,18 +1,15 @@
-import logo from "./logo.svg";
-import "./App.css";
+import './App.css';
+import React from 'react';
+import Tugas6 from './tugas6/tugas6';
+import Tugas7 from './tugas7/tugas7';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <div className="box">
-        <h1 className="judul">Hi, Saya Syahru</h1>
-        <hr></hr>
-        <p className="paragraf">
-          Saya dari Kelas 12 sudah berhasil menginstall React
-        </p>
-      </div>
-    </div>
-  );
+    <>
+      <Tugas6 />
+      <Tugas7 name="Syahru" kelas="12" email="rmdhnnnsyahru@gmail.com" />
+    </>
+  )
 }
 
 export default App;
